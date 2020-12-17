@@ -1,1 +1,6 @@
-const someObj = Object.create(null);
+function createOEmptyObj() {
+    const someObj = Object.create(null);
+    return someObj;
+}
+
+// Почти верно, но по условию нужно было создать функцию, которая возвращает пустой объект без прототипа. Код для создания нужного объекта вы написали правильно, но не хватает функции
